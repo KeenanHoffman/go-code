@@ -8,9 +8,11 @@ const connectionConfig = require('../configs/connection.js');
 
 // load model definitions
 const User = require('../modules/users/users.model.js');
+const Data = require('../modules/data/data.model.js');
 
 // load models into orm
 orm.loadCollection(User);
+orm.loadCollection(Data);
 
 // initialize function
 function initialize(app, PORT, callback) {
