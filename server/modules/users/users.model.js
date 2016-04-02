@@ -9,10 +9,10 @@ module.exports = Waterline.Collection.extend({
     username: 'string',
     email: 'string',
     password: 'string',
-    savedGames: {
-      collection: 'saved_game',
-      via: 'player',
-      dominant: true
-    }
+    // savedGames: {
+    //   collection: 'saved_game',
+    //   via: 'player',
+    //   dominant: true
+    // }
   }
 });
